@@ -4,26 +4,26 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.31 0.15 15); /* Maroon background */
+  --background: #7a2f2f; /* Darker brand maroon background */
   --foreground: oklch(1 0 0); /* White text */
   --card: oklch(0.96 0.01 15); /* Light cream for cards */
   --card-foreground: oklch(0.25 0.02 15); /* Dark text on cards */
   --popover: oklch(1 0 0); /* White popover */
   --popover-foreground: oklch(0.25 0.02 15); /* Dark text on popover */
-  --primary: oklch(0.35 0.12 15); /* Updated to #914141 equivalent */
+  --primary: #914141; /* Brand maroon */
   --primary-foreground: oklch(1 0 0); /* White text on maroon */
   --secondary: oklch(0.94 0.01 15); /* Light background for sections */
   --secondary-foreground: oklch(0.25 0.02 15); /* Dark text on light */
   --muted: oklch(0.92 0.01 15); /* Muted background */
   --muted-foreground: oklch(0.45 0.02 15); /* Muted text */
-  --accent: oklch(0.35 0.12 15); /* Updated accent to match primary */
+  --accent: #914141; /* Match brand maroon */
   --accent-foreground: oklch(1 0 0); /* White text on maroon */
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.85 0.01 15); /* Light border */
   --input: oklch(1 0 0); /* White input fields */
-  --ring: oklch(0.35 0.12 15); /* Updated focus ring to match primary */
-  --chart-1: oklch(0.35 0.12 15);
+  --ring: #914141; /* Focus ring in brand maroon */
+  --chart-1: #914141;
   --chart-2: oklch(0.31 0.15 15);
   --chart-3: oklch(0.45 0.12 120);
   --chart-4: oklch(0.55 0.15 200);
@@ -31,16 +31,16 @@
   --radius: 0.5rem;
   --sidebar: oklch(0.25 0.02 15);
   --sidebar-foreground: oklch(1 0 0);
-  --sidebar-primary: oklch(0.35 0.12 15);
+  --sidebar-primary: #914141;
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.35 0.12 15);
+  --sidebar-accent: #914141;
   --sidebar-accent-foreground: oklch(1 0 0);
   --sidebar-border: oklch(0.35 0.02 15);
-  --sidebar-ring: oklch(0.35 0.12 15);
+  --sidebar-ring: #914141;
 }
 
 .dark {
-  --background: oklch(0.15 0.02 15);
+  --background: #7a2f2f; /* Darker brand maroon in dark mode */
   --foreground: oklch(0.96 0.01 15);
   --card: oklch(0.18 0.02 15);
   --card-foreground: oklch(0.96 0.01 15);
@@ -75,7 +75,7 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-anonymous-pro);
   --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
