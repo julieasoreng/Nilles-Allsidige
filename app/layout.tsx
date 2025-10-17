@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans ${anonymousPro.variable} ${GeistMono.variable}`}>
         {/* Header (shared) */}
-        <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+        <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex items-center justify-between">
               <a href="/" className="flex flex-col items-start text-left leading-tight hover:opacity-90 transition-opacity">
@@ -81,13 +81,13 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-accent-foreground/80">
                   <li>nille@nilles.no</li>
-                  <li>+47 90970019</li>
-                  <li>Flisa, Norway</li>
+                  <li>+4746967699</li>
+                  <li>Gruetjernsvegen 11<br />N-2260, Kirkenær</li>
                 </ul>
               </div>
             </div>
             <div className="border-t border-accent-foreground/20 mt-8 pt-8 text-center text-accent-foreground/60">
-              <p>&copy; 2024 Nilles Allsidige Tråklerier. All rights reserved.</p>
+              <p>&copy; 2025 Julie Andreus. All rights reserved.</p>
             </div>
           </div>
         </footer>

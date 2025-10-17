@@ -15,11 +15,11 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">+47 90970019</span>
+                <span className="text-muted-foreground">+4746967699</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">Flisa, Norway</span>
+                <span className="text-muted-foreground">Gruetjernsvegen 11<br />N-2260, Kirkenær</span>
               </div>
             </div>
           </div>
@@ -28,7 +28,6 @@ export default function ContactPage() {
             <div className="space-y-2 text-muted-foreground">
               <div>Monday - Friday: 9:00 AM - 6:00 PM CET</div>
               <div>Saturday: 10:00 AM - 2:00 PM CET</div>
-              <div>Sunday: Closed</div>
             </div>
           </div>
         </div>
