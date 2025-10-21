@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Anonymous_Pro } from 'next/font/google'
 import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/next'
+import MobileMenu from '@/components/mobile-menu'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -46,6 +47,7 @@ export default function RootLayout({
                   Contact
                 </a>
               </div>
+              <MobileMenu />
             </nav>
           </div>
         </header>
