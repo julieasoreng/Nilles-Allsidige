@@ -126,10 +126,12 @@
 
 @layer components {
   .mobile-menu-panel {
-    background-color: #914141 !important;
-    background: #914141 !important;
+    background-color: #a05252 !important;
+    background: #a05252 !important;
     opacity: 1 !important;
     z-index: 9999 !important;
     position: fixed !important;
+    border-left: 3px solid #8b3a3a !important;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3) !important;
   }
 }
