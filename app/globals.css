@@ -131,7 +131,12 @@
     opacity: 1 !important;
     z-index: 9999 !important;
     position: fixed !important;
-    border-left: 3px solid #8b3a3a !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3) !important;
   }
 }
