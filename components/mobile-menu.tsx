@@ -35,7 +35,7 @@ export default function MobileMenu() {
           />
           
           {/* Menu Panel with solid background */}
-          <div className="mobile-menu-panel fixed left-0 top-0 w-2/3 h-full shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0">
+          <div className="mobile-menu-panel fixed right-0 top-0 w-2/3 h-full shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0">
             <div className="p-6" onClick={(e) => e.stopPropagation()}>
               {/* Close Button */}
               <div className="flex justify-end mb-8">
@@ -48,17 +48,6 @@ export default function MobileMenu() {
                 </button>
               </div>
 
-              {/* Logo */}
-              <div className="mb-8">
-                <a 
-                  href="/" 
-                  className="flex flex-col items-start text-left leading-tight hover:opacity-90 transition-opacity"
-                  onClick={closeMenu}
-                >
-                  <span className="text-xs font-semibold tracking-widest uppercase text-white">NAT</span>
-                  <span className="text-sm font-medium text-white">Nilles Allsidige Tråklerier</span>
-                </a>
-              </div>
 
               {/* Navigation Links */}
               <nav className="space-y-4">
