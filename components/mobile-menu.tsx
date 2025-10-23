@@ -28,15 +28,9 @@ export default function MobileMenu() {
       {/* Mobile Menu Overlay */}
       {isOpen && (
         <div className="fixed inset-0 z-[100] md:hidden">
-          {/* Backdrop */}
-          <div 
-            className="fixed inset-0 bg-black/50 backdrop-blur-sm"
-            onClick={closeMenu}
-          />
-          
-          {/* Menu Panel */}
-          <div className="mobile-menu-panel fixed right-0 top-0 h-full w-full shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0">
-            <div className="p-6">
+          {/* Menu Panel with solid background */}
+          <div className="mobile-menu-panel fixed inset-0 w-full h-full shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0" onClick={closeMenu}>
+            <div className="p-6" onClick={(e) => e.stopPropagation()}>
               {/* Close Button */}
               <div className="flex justify-end mb-8">
                 <button
