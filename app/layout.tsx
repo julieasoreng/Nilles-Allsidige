@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Anonymous_Pro } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/next'
 import MobileMenu from '@/components/mobile-menu'
@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   generator: 'v0.app',
 }
 
-const anonymousPro = Anonymous_Pro({
+const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-anonymous-pro',
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-inter',
 })
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${anonymousPro.variable} ${GeistMono.variable}`}>
+      <body className={`font-sans ${inter.variable} ${GeistMono.variable}`}>
         {/* Header (shared) */}
         <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
           <div className="container mx-auto px-4 py-4">
