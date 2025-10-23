@@ -35,7 +35,7 @@ export default function MobileMenu() {
           />
           
           {/* Menu Panel */}
-          <div className="fixed right-0 top-0 h-full w-80 max-w-[85vw] shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0" style={{backgroundColor: '#914141', background: '#914141', opacity: 1, zIndex: 70, position: 'fixed'}}>
+          <div className="mobile-menu-panel fixed right-0 top-0 h-full w-80 max-w-[85vw] shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0">
             <div className="p-6">
               {/* Close Button */}
               <div className="flex justify-end mb-8">

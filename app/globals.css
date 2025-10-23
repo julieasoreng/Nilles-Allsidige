@@ -123,3 +123,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .mobile-menu-panel {
+    background-color: #914141 !important;
+    background: #914141 !important;
+    opacity: 1 !important;
+    z-index: 9999 !important;
+    position: fixed !important;
+  }
+}
