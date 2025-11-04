@@ -52,7 +52,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center">
               <h3 className="text-2xl font-bold mb-2 text-card-foreground">Nille</h3>
-              <p className="text-lg font-semibold text-muted-foreground mb-4">Professional Translator</p>
+              <p className="text-lg font-semibold text-muted-foreground mb-4">Professional Freelance Translator</p>
               <div className="flex justify-center space-x-4">
                 <div className="text-center">
                   <div className="text-base font-bold text-primary">Translators without Borders</div>
