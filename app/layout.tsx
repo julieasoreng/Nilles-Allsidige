@@ -30,8 +30,8 @@ export default function RootLayout({
           <div className="container mx-auto px-4 py-4">
             <nav className="flex items-center justify-between">
               <a href="/" className="flex flex-col items-start text-left leading-tight hover:opacity-90 transition-opacity">
-                <span className="text-lg md:text-base font-semibold tracking-widest uppercase">NAT</span>
-                <span className="text-lg md:text-xl font-medium">Nilles Allsidige Tråklerier</span>
+                <span className="text-5xl md:text-base font-semibold tracking-widest uppercase">NAT</span>
+                <span className="text-5xl md:text-xl font-medium">Nilles Allsidige Tråklerier</span>
               </a>
               <div className="hidden md:flex items-center space-x-8">
                 <a href="/services" className="text-foreground hover:text-primary transition-colors">
