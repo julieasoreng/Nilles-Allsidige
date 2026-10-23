@@ -15,7 +15,7 @@ export default function TranslatorLandingPage() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">Professional Translations in English, German, and Norwegian</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">Professional translations in English, German, and Norwegian</h1>
           <p className="text-xl md:text-2xl mb-8 text-foreground max-w-3xl mx-auto text-pretty">
             Accurate, reliable, and culturally nuanced translations delivered on time. Helping businesses and individuals
             communicate with confidence across borders.
@@ -41,6 +41,12 @@ export default function TranslatorLandingPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-4xl font-bold mb-6 text-muted-foreground">About Nille</h2>
+              <div className="flex flex-wrap gap-2 mb-8">
+                <Badge variant="secondary" className="text-sm px-3 py-1.5">English → Norwegian</Badge>
+                <Badge variant="secondary" className="text-sm px-3 py-1.5">Norwegian → English</Badge>
+                <Badge variant="secondary" className="text-sm px-3 py-1.5">German → Norwegian</Badge>
+                <Badge variant="secondary" className="text-sm px-3 py-1.5">19 Years Experience</Badge>
+              </div>
               <p className="text-lg mb-6 text-muted-foreground">
                 I am a versatile and mature professional with a broad background spanning several
                 disciplines. I speak English, Norwegian, and German fluently, and I primarily
@@ -65,12 +71,6 @@ export default function TranslatorLandingPage() {
                 As highlighted in my profile, I am comfortable working with different types of texts
                 and subject areas. I value precision, consistency, and a well-crafted end result.
               </p>
-            <div className="flex flex-wrap gap-2">
-              <Badge variant="secondary" className="text-sm px-3 py-1.5">English → Norwegian</Badge>
-              <Badge variant="secondary" className="text-sm px-3 py-1.5">Norwegian → English</Badge>
-              <Badge variant="secondary" className="text-sm px-3 py-1.5">German → Norwegian</Badge>
-              <Badge variant="secondary" className="text-sm px-3 py-1.5">19 Years Experience</Badge>
-            </div>
             </div>
             <div className="bg-card rounded-lg p-8 border border-border mx-auto w-full max-w-md mt-16">
               <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
