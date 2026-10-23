@@ -6,9 +6,8 @@ import MobileMenu from '@/components/mobile-menu'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'NAT | Nilles Allsidige Tråklerier',
+  description: 'Professional translations in English, German, and Norwegian. Accurate, reliable, and culturally nuanced translations by Nille.',
 }
 
 const inter = Inter({
@@ -59,8 +58,8 @@ export default function RootLayout({
         {/* Footer (shared) */}
         <footer className="py-12 px-4 bg-accent text-accent-foreground">
           <div className="container mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
-              <div>
+            <div className="grid gap-8 md:grid-cols-3">
+              <div className="md:max-w-xs">
                 <div className="flex items-center space-x-2 mb-4">
                   <span className="text-xl font-bold">Nilles Allsidige Tråklerier</span>
                 </div>
@@ -68,7 +67,7 @@ export default function RootLayout({
                   Professional translation services bridging languages and cultures with expertise and precision.
                 </p>
               </div>
-              <div>
+              <div className="md:justify-self-center">
                 <h4 className="font-semibold mb-4">Services</h4>
                 <ul className="space-y-2 text-accent-foreground/80">
                   <li>Research Reports</li>
@@ -79,7 +78,7 @@ export default function RootLayout({
                   <li>Technical Manuals</li>
                 </ul>
               </div>
-              <div>
+              <div className="md:justify-self-end">
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-accent-foreground/80">
                   <li>nille@nilles.no</li>
